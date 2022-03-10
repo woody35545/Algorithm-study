@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="787a64b7-db8a-425b-8d47-f00f5c14427d" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BOJ_2798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
