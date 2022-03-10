@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 --- BOJ_17952---
 [문제]
@@ -38,36 +40,46 @@
 
 """
 
+
 # 과제의 순서는 Stack으로 관리
 # 과제 진행 시간을 가지고 있기 위해서 남은 얼마나 더해야하는지 기록하는 remaining_time : list 선언 
 
 
 def solve():
     # N = 이번학기 시간
-    N = int(input()) 
-    todo = [0] * N # 과제들
-    remaining = [0] * N # 과제 완료까지 남은시간
-    scores = [0] * N # 과제당 점수
-    total_scroe = 0 # 총 취득 점수
-    current = 0 # 현재 진행중인 과제 번호
+    N = int(input())
+    todo = [0] * N  # 과제들
+    remaining = [0] * N  # 과제 완료까지 남은시간
+    scores = [0] * N  # 과제당 점수
+    total_score = 0  # 총 취득 점수
+    current = 0  # 현재 진행중인 과제 번호
     stack = [0] * N
-    size_of_stack = 0 
+    size_of_stack = 0
     last_added_project = 0
-    for n in range(N): 
+    number_of_projects = 0
+    for n in range(N):
         input_str = input().split(" ")
-        if(input_str[0] == 0):
-              
+        if (int(input_str[0]) == 0):
             None
         else:
             stack[size_of_stack] = last_added_project
-    
+
             last_added_project += 1
             size_of_stack += 1
 
-            socres[n] = input_str[1]
-            remaining[n] = input_str[2]
-            
+            scores[last_added_project] = int(input_str[1])
+            remaining[last_added_project] = int(input_str[2])
+            number_of_projects += 1
             current = last_added_project
-            remaining[current] -= 1 
-            
-            
+
+        remaining[current] -= remaining[current - 1]
+
+        if (n == N - 1):
+            for i in range(number_of_projects):
+                if (remaining[i] == 0):
+                    total_score += scores[i]
+
+    print(total_score)
+
+
+solve()
