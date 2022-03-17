@@ -13,3 +13,4 @@ for i in range(T):
         print("Draw")
     else:
         print("Korea")
+
