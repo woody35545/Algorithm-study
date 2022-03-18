@@ -1,0 +1,9 @@
+# .gitignore 에서 .idea 디렉터리 및 .xml 파일 ignore 설정 했는데, 계속 push시 반영되는 문제
+
+기존에 이미 .idea 디렉터리가 remote에 먼저 올라간 상황. 그 이후에 .gitignore에 작성하면 반영되기 때문에 cached 되어 있는(remote에 이미 올라가 있는) 파일들을 제거해주어야 함
+
+# git remote에 cached 된 파일 제거하는 법
+
+	> $ git rm --cached *제거할_디렉터리_또는_파일* // 이렇게 하면 제거됨
+	
+	만약 --cached 옵션을 넣어주지 않는다면 로컬 및 리모트 둘다 제거됨
