@@ -17,8 +17,9 @@ def solve():
         num = int(input())
         count_plus(num)
 
-    max_key = max(dic, key=dic.get)
-    print(max_key, end = "")
+    #sorted_dic = sorted(dic.items())
+    #max_key = max(sorted_dic, key=sorted_dic.get)
+    #print(max_key, end="")
 
 
 solve()
