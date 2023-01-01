@@ -25,4 +25,21 @@ def dfs(_graph, _start_node):
 
     return visited
   
-  print(dfs(graph,1))
+print(dfs(graph,1))
+
+visited = []
+# 재귀함수로 구현한 DFS
+def dfs_recursive(_graph, _start_node):
+    global visited
+    
+    # 이미 방문한 노드일 경우 탐색 종료
+    if _start_node in visited:
+        visited.append(_start_node)
+        return
+
+    # visited 처리
+    visited.append(_start_node)
+
+    # 인접 노드들에 대해서 Recursive 방식으로 dfs 수행
+    for adjacent_node in _graph[_start_node]:
+        dfs_recursive(_graph, adjacent_node)
