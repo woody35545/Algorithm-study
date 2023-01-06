@@ -89,6 +89,28 @@ def solve():
 
     return "HELP!"
 
+def solve2():
+    world_length, break_chacne = map(int, input().split(" "))
+
+    # init world map
+    world = input()
+
+    # init positions
+    player_pos = world.find(PLAYER)
+    exit_pos = world.find(EXIT)
+    gauntlet_pos = world.find(GAUNTLET)
+
+    # check if player can reach exit without gauntlet
+    if world[min(player_pos, exit_pos): max(player_pos, exit_pos)].count(WALL) <= break_chacne:
+        return "HAHA!"
+
+    # if not, then check if player can reach gauntlet
+    else:
+        if world[min(player_pos, gauntlet_pos): max(player_pos, gauntlet_pos)].count(WALL) <= break_chacne:
+            return "HAHA!"
+
+    return "HELP!"
+
 T = int(input())
 for i in range(T):
     answer = solve()
