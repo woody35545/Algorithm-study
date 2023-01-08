@@ -1,13 +1,4 @@
-test_graph = [[],
-              [2,3],
-              [1,4,5],
-              [1,4,6],
-              [2,3],
-              [2,6],
-              [3,5]
-              ]
-
-def bfs(graph, startVertex):
+def bfs_with_adjList(graph, startVertex):
     visited, queue = [], [startVertex]
     print("* Initial Queue >> " + str(queue) +"\n")
     while queue:
@@ -28,9 +19,6 @@ def bfs(graph, startVertex):
         print("")
     return visited
 
-#print(bfs(test_graph,1))
-
-
 def bfs_with_adjMatrix(graph, startVertex):
     visited, queue = [], [startVertex]
     while queue:
@@ -42,7 +30,15 @@ def bfs_with_adjMatrix(graph, startVertex):
                     queue.append(i) # push current node's adjacent nodes to queue
     return visited
 
-  
+adj_list = [[],
+              [2,3],
+              [1,4,5],
+              [1,4,6],
+              [2,3],
+              [2,6],
+              [3,5]
+              ]
+ 
 adj_matrix = [[0, 0, 0, 0, 0, 0, 0],
               [0, 0, 1, 1, 0, 0, 0],
               [0, 1, 0, 0, 1, 1, 0],
@@ -51,5 +47,5 @@ adj_matrix = [[0, 0, 0, 0, 0, 0, 0],
               [0, 0, 1, 0, 0, 0, 1],
               [0, 0, 0, 1, 0, 1, 0]]
 
-  
+print(bfs_with_adjList(adj_list,1))
 print(bfs_with_adjMatrix(adj_matrix,1))
