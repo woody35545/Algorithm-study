@@ -48,7 +48,6 @@
 1000 999
 '''
 
-
 def dfs(graph, start_node):
     stack, visited = [start_node], []
 
@@ -73,7 +72,9 @@ def dfs(graph, start_node):
 def bfs(graph, startVertex):
     visited, queue = [], [startVertex]
     while queue:
+
         cur_node = queue.pop(0)  # left pop
+
         if cur_node not in visited:
             visited.append(cur_node)  # if current node's visited state is 'not visited', set 'visited'
             temp = graph[cur_node]
@@ -108,5 +109,6 @@ for i in range(len(bfs_res_list)):
         print(str(bfs_res_list[i]), end=" ")
     else:
         print(str(bfs_res_list[i]), end="")
+
 
 
