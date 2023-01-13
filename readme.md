@@ -1,6 +1,7 @@
 ## To Do
 2023.01.09 - **BOJ_4963_섬의_개수**  / https://www.acmicpc.net/problem/4963  
-2023.01.15 - **최솟값과 최댓값**  / https://www.acmicpc.net/problem/2357  
+2023.01.13 - **BOJ_16234_인구이동** / https://www.acmicpc.net/problem/16234  
+2023.01.15 - **BOJ_2357_최솟값과 최댓값**  / https://www.acmicpc.net/problem/2357  
 
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
