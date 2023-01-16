@@ -3,6 +3,7 @@
 2023.01.13 - **BOJ_16234_인구이동** / https://www.acmicpc.net/problem/16234  
 2023.01.15 - **BOJ_2357_최솟값과 최댓값**  / https://www.acmicpc.net/problem/2357  
 2023.01.16 - **BOJ_14226_이모티콘** / https://www.acmicpc.net/problem/14226 dp or graph  
+2023.01.16 - **BOJ_1890_점프** / https://www.acmicpc.net/problem/1890
 
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
