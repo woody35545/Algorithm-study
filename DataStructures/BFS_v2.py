@@ -1,4 +1,6 @@
 from pprint import pprint
+from collections import deque
+
 adjacency_matrix_graph = [[1, 1, 0, 0, 0],
                           [0, 1, 1, 0, 0],
                           [0, 1, 1, 1, 0],
@@ -24,11 +26,13 @@ delta = [(-1,0),(1,0),(0,-1),(0,1)] # up, down, left, right
 
 
 def bfs(graph, start_node):
-    queue = [start_node]
+    #queue = [start_node]
+    queue = deque([start_node])
     visited = [[False]*M for _ in range(N)]
     #visited.append(start_node)
     while queue:
-        cur  = queue.pop(0)
+        #cur  = queue.pop(0)
+        cur = queue.popleft()
         # cur(tuple) like (1,2)
         dprint(">> current pop: " + str(cur[0]) + ", " + str(cur[1]))
         if not visited[cur[0]][cur[1]]:
