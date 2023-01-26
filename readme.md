@@ -6,6 +6,7 @@
 2023.01.16 - **BOJ_1890_점프** / https://www.acmicpc.net/problem/1890  
 2023.01.23 - **BOJ_9935_폭발문자열** / https://www.acmicpc.net/problem/9935  
 2023.01.25 - **BOJ_2206_벽 부수고 이동하기** / https://www.acmicpc.net/problem/2206 -> 시간초과로 다시풀어야 함  
+2023.01.26 - **BOJ_2638_치즈** / https://www.acmicpc.net/problem/2638  
 
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
