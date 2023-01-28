@@ -7,7 +7,8 @@
 2023.01.23 - **BOJ_9935_폭발문자열** / https://www.acmicpc.net/problem/9935  
 2023.01.25 - **BOJ_2206_벽 부수고 이동하기** / https://www.acmicpc.net/problem/2206 -> 시간초과로 다시풀어야 함  
 2023.01.26 - **BOJ_2638_치즈** / https://www.acmicpc.net/problem/2638  
-
+2023.01.28 - **BOJ_14502_연구소** / https://www.acmicpc.net/problem/14502  
+  
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
   - **`if current_vertex not in visited` 와 `if not visted[current_vertex]` -> 동일한 기능이지만 시간복잡도 차이 발생.**  
