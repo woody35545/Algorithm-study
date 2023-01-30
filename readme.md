@@ -11,7 +11,13 @@
 | 2023.01.25 | **BOJ_2206_벽 부수고 이동하기** | https://www.acmicpc.net/problem/2206| Time Out
 | 2023.01.26 | **BOJ_2638_치즈** | https://www.acmicpc.net/problem/2638|
 | 2023.01.28 | **BOJ_14502_연구소** | https://www.acmicpc.net/problem/14502|
-  
+
+
+## Today I Tried or Solved
+|Date|Title|Code|Description|
+|:---:|:---:|:---:|:---:|
+| 2023.01.30 | [**G4_최단경로찾기_BOJ1753**](https://www.acmicpc.net/problem/4963)| [Link](https://github.com/woody35545/Algorithm/blob/master/Dijkstra/G4_%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C_BOJ1753.py) |Python3는 통과하는데 Pypy로는 왜 시간초과가 날까..? |
+
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
   - **`if current_vertex not in visited` 와 `if not visted[current_vertex]` -> 동일한 기능이지만 시간복잡도 차이 발생.**  
