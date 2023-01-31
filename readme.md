@@ -17,7 +17,7 @@
 |Date|Title|Code|Description|
 |:---:|:---:|:---:|:---:|
 | 2023.01.30 | [**G4_최단경로찾기_BOJ1753**](https://www.acmicpc.net/problem/4963)| [Link](https://github.com/woody35545/Algorithm/blob/master/Dijkstra/G4_%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C_BOJ1753.py) |Python3는 통과하는데 Pypy로는 왜 시간초과가 날까..? |
-
+| 2023.01.31 | [**S1_효율적인해킹_BOJ1325**](https://www.acmicpc.net/problem/1325) | - | Time Out
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
   - **`if current_vertex not in visited` 와 `if not visted[current_vertex]` -> 동일한 기능이지만 시간복잡도 차이 발생.**  
