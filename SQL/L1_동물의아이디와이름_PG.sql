@@ -20,6 +20,7 @@ A352872	Peanutbutter
 A353259	Bj
 ((이하 생략))
 본 문제는 Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"에서 제공하는 데이터를 사용하였으며 ODbL의 적용을 받습니다.
+문제출처: https://school.programmers.co.kr/learn/courses/30/lessons/59403
 */
 
 -- Solution
