@@ -32,3 +32,5 @@
   - **`input()`, `print()` -> `sys.stidn.readline()`, `sys.stdout.write()` 를 사용하면 시간복잡도 줄어듦**  
       - [참고]   
         https://urakasumi.tistory.com/m/273
+        
+  - **반복문을 통해 리스트의 특정 인덱스 삭제(pop)시 구현방식에 따라서 일부을 값이 순회에서 누락될 수 있음에 주의** (./Implements/S5_덩치_BOJ7568_.py 참고)
