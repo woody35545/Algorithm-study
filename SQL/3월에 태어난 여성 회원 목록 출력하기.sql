@@ -27,6 +27,8 @@ MEMBER_ID	MEMBER_NAME	GENDER	DATE_OF_BIRTH
 seoyeons@naver.com	박서연	W	1993-03-16
 주의사항
 DATE_OF_BIRTH의 데이트 포맷이 예시와 동일해야 정답처리 됩니다.
+
+문제출처: https://school.programmers.co.kr/learn/courses/30/lessons/131120
 */
 
 /* Solution */
