@@ -23,14 +23,14 @@
 | 2023.02.03 | [**S4_로프_BOJ2217**](https://www.acmicpc.net/problem/2217) | [Link](https://github.com/woody35545/Algorithms/blob/master/Greedy/S4_%EB%A1%9C%ED%94%84_BOJ2217.py) | Solve
 ## Review
 - 2023.01.12 - **BOJ_11725_트리의부모찾기**
-  - **`if current_vertex not in visited` 와 `if not visted[current_vertex]` -> 동일한 기능이지만 시간복잡도 차이 발생.**  
-    `if element in list` 방식의 시간복잡도가 높은편
+  - **`if current_vertex not in visited` 와 `if not visted[current_vertex]` -> 동일한 기능이지만 수행시간에서 차이 발생**  
+    `if element in list` 방식의 수행시간이 상대적으로 긴 편
     - [참고]  
        파이썬 자료형 별 시간복잡도: https://wayhome25.github.io/python/2017/06/14/time-complexity/    
   
 
  
-  - **`input()`, `print()` -> `sys.stidn.readline()`, `sys.stdout.write()` 를 사용하면 시간복잡도 줄어듦**  
+  - **`input()`, `print()` -> `sys.stidn.readline()`, `sys.stdout.write()` 를 사용하면 수행시간 줄어듦**  
       - [참고]   
         https://urakasumi.tistory.com/m/273
         
