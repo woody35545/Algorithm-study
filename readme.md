@@ -18,7 +18,7 @@
 |Date|Title|Code|Description|
 |:---:|:---:|:---:|:---:|
 | 2023.01.30 | [**G4_최단경로찾기_BOJ1753**](https://www.acmicpc.net/problem/4963)| [Link](https://github.com/woody35545/Algorithm/blob/master/Dijkstra/G4_%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C_BOJ1753.py) |Python3는 통과하는데 Pypy로는 왜 시간초과가 날까..? 
-| 2023.01.31 | [**S1_효율적인해킹_BOJ1325**](https://www.acmicpc.net/problem/1325) | - | Time Out
+| 2023.01.31 | [**S1_효율적인해킹_BOJ1325**](https://www.acmicpc.net/problem/1325) | [Link](https://github.com/woody35545/Algorithm-study/blob/master/Graph/BOJ_1325_%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%ED%95%B4%ED%82%B9_RE.py) | Time Out
 | 2023.02.03 | [**G5_카드정렬하기_BOJ1715**](https://www.acmicpc.net/problem/1715) | [Link](https://github.com/woody35545/Algorithms/blob/master/Greedy/G5_%EC%B9%B4%EB%93%9C%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_BOJ1715.py) | Solve
 | 2023.02.03 | [**S4_로프_BOJ2217**](https://www.acmicpc.net/problem/2217) | [Link](https://github.com/woody35545/Algorithms/blob/master/Greedy/S4_%EB%A1%9C%ED%94%84_BOJ2217.py) | Solve
 ## Review
