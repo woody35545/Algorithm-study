@@ -12,7 +12,7 @@
 | 2023.01.26 | **BOJ_2638_치즈** | https://www.acmicpc.net/problem/2638| - |
 | 2023.01.28 | **BOJ_14502_연구소** | https://www.acmicpc.net/problem/14502| - |
 | 2023.05.13 | **BOJ_1743_음식물피하기** | https://www.acmicpc.net/problem/1743 | [!] Memory |  
-
+| 2023.11.22 | **G5_개미굴_BOJ14725** | https://www.acmicpc.net/problem/14725 | [!] Fail |
 
 ## Today I Tried or Solved
 |Date|Title|Code|Description|
