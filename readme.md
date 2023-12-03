@@ -39,3 +39,7 @@
         https://urakasumi.tistory.com/m/273
         
   - **반복문을 통해 리스트의 특정 인덱스 삭제(pop)시 구현방식에 따라서 일부을 값이 순회에서 누락될 수 있음에 주의** (./Implements/S5_덩치_BOJ7568_.py 참고)
+ 
+  - **파이썬의 `PriorityQueue`와 `heapq`**
+    - PriorityQueue는 내부적으로 heapq를 사용한다. heapq는 thread-safe하지 않기 때문에, PriorityQueue는 heapq에다 thread-safe한 동작을 보장하기 위한 일련의 작업들이 더 추가된 것으로 볼 수 있다.
+      이 때문에 PriorityQueue를 사용하면 heapq를 사용하는 것보다 수행 시간 측면에서 느리다. 코딩테스트에서는 멀티스레드를 사용할 일이 없기 때문에 항상 heapq를 사용하는 것이 좋다고 생각한다.
