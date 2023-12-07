@@ -59,7 +59,6 @@ def solve():
 
     king = chess_obj(int(x_locations[loc1[0]]), int(loc1[1]))
     rock = chess_obj(int(x_locations[loc2[0]]), int(loc2[1]))
-    # print(f"king: {king.x},{king.y}, rock: {rock.x},{rock.y}")
 
     for i in range(int(move_count)):
 
@@ -153,7 +152,7 @@ def solve():
                     king.move(input_cmd)
         else:
             king.move(input_cmd)
-        # print(f"king: {king.x},{king.y}, rock: {rock.x},{rock.y}")
+
     print(rev_x_locations[king.x] + str(king.y))
     print(rev_x_locations[rock.x] + str(rock.y), end="")
 
